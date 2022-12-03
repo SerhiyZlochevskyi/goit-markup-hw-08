@@ -1,0 +1,29 @@
+.client{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+   
+ 
+  &__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width:170px;
+      height: 92px;
+      border: 1px solid #AFB1B8;
+      border-radius: 4px;
+      fill:var(--icon-currentColor);
+      border: 1px solid var(--icon-currentColor);
+      border-radius: 4px;
+      fill: var(--icon-currentColor);
+      transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  }
+  &__link:hover,
+  &__link:focus {
+    fill: var(--icon-accent-partners-color);
+    border-color: var(--icon-accent-partners-color);
+  }
+    
+    }

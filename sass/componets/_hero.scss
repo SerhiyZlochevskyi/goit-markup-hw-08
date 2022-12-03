@@ -1,0 +1,40 @@
+.hero {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+   background: var(--bg-screan-footer-color);
+  
+    
+      max-width: 1600px;
+      margin-left: auto;
+      margin-right: auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(../images/geroy.jpg)
+  
+  &__title {
+    width: 694px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--bg-header-color);
+  }
+  &__buton {
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

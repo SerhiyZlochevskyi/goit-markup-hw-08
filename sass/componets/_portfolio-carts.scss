@@ -1,0 +1,78 @@
+
+
+  .portfolio-carts {
+  display: flex;
+  justify-content: space-around;
+  width: 575px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+    }
+
+    .portfolio-carts__button {
+padding: 6px 22px;
+border-radius: 4px;
+border: none;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+ 
+.portfolio-carts__button:hover,
+.portfolio-carts__button:focus {
+    background-color: var(--focus-color);
+    color: var(--bg-header-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    
+}
+
+.portfolio-carts__button {
+    padding: 6px 22px;
+    background-color: var(--comands-color);
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    }
+    
+    .all{ padding: 6px 25px 
+    }
+    
+
+.commands-list-item {
+  background-color: var(--bg-header-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+ .button-box {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 30px;
+   height: 30px;
+   top: 8px;
+   right: 8px;
+   border-radius: 50%;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   background-color: #fff;
+   fill: currentColor;
+   cursor: pointer;
+   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+
+ .button-box:hover,
+ .button-box:focus {
+   fill: var(--focus-color);
+
+ }
+  
+
+
