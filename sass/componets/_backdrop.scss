@@ -15,18 +15,3 @@
       pointer-events: none;
     }
   }
-.check-line input:checked+.modal-form__checkbox .modal-form__checkbox--new {
-  background-color: #2196F3;
-  border: 2px solid #2196F3;
-  border-radius: 2px;
-}
-
-.check-line input:checked+.modal-form__checkbox .modal-form__icon--check {
-  fill: #fff;
-}
-
-
-.form-container {
-  margin-left: calc(-45px + 93px);
-  
-}
