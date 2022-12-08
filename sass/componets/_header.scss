@@ -1,19 +1,24 @@
 .header {
+  padding-top: 16px;
+  padding-bottom: 16px;
   border-bottom: 1px solid #ececec;
 }
 .header__nav {
+  display: none;
   display: flex;
   align-items: center;
 }
 
 .header__container {
+  // padding-bottom: 29px;
   display: flex;
   align-items: center;
 }
 
 .header-contakt {
-  display: flex;
-  margin-left: auto;
+  display: none;
+  // display: flex;
+  // margin-left: auto;
 }
 
 .header-contakt .site-nav__item + .site-nav__item {
@@ -26,6 +31,8 @@
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  padding-top: 16px;
+  padding-bottom: 16px;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
