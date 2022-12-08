@@ -97,23 +97,30 @@ img {
   outline: 2px solid red;
   outline-offset: -2px;
   max-width: 480px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 31px;
+  padding-right: 31px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .container {
+    max-width: 768px;
+    padding-left: 39px;
+    padding-right: 39px;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
@@ -636,6 +643,16 @@ img {
   pointer-events: none;
 }
 
+@media screen and (min-width: 768px) {
+  .values__list {
+    max-width: 768px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .values__list {
     max-width: 1200px;
@@ -672,7 +689,7 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .values__item {
+  .values__list .item {
     max-width: 1200px;
     -ms-flex-preferred-size: calc((100% - 90px) / 3);
         flex-basis: calc((100% - 90px) / 3);

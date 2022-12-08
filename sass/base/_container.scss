@@ -10,8 +10,8 @@ $breakpoint: (
 
   // phone screen 0px & >
   max-width: 480px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 31px;
+  padding-right: 31px;
   margin-left: auto;
   margin-right: auto;
 
@@ -24,14 +24,15 @@ $breakpoint: (
 
   @include mq(tablet) {
     max-width: 768px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 39px;
+    padding-right: 39px;
   }
 
-//   @include mq(tablet-only) {
-//     max-width: 768px;
-  
-//   }
+  @include mq(tablet-only) {
+    max-width: 768px;
+    padding-left: 39px;
+    padding-right: 39px;
+  }
 
   // desktop screen 1200px & >
   // @media screen and (min-width: 1200px) {
@@ -42,7 +43,7 @@ $breakpoint: (
 
   @include mq(desktop) {
     max-width: 1200px;
-    padding-left: 215px;
-    padding-right: 215px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
