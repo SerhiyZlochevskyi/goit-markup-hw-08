@@ -662,12 +662,12 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0;
-  margin-left: auto;
   background-color: transparent;
   cursor: pointer;
   border: none;
   border-radius: 50%;
   outline: none;
+  margin-left: auto;
 }
 
 @media (min-width: 768px) {
@@ -1336,12 +1336,12 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0;
-  margin-left: auto;
   background-color: transparent;
   cursor: pointer;
   border: none;
   border-radius: 50%;
   outline: none;
+  margin-left: auto;
 }
 
 @media (min-width: 768px) {
