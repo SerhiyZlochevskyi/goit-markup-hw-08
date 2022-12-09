@@ -1,15 +1,15 @@
-.menu {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
+// .menu {
+//   display: flex;
+//   padding: 0;
+//   margin: 0;
+//   list-style: none; 
+// }
 
-@media (max-width: 767px) {
-  .menu {
-    display: none;
-  }
-}
+// @media (max-width: 767px) {
+//   .menu {
+//     display: none;
+//   }
+// }
 
 .menu .link {
   padding: 10px;
@@ -29,7 +29,6 @@
   align-items: center;
   justify-content: center;
 
-  
   padding: 0;
 
   background-color: transparent;
@@ -48,7 +47,7 @@
 
 .menu-toggle:hover,
 .menu-toggle:focus {
-  background-color:#2196F3
+  background-color: #2196f3;
 }
 
 .menu-container {
@@ -57,7 +56,6 @@
   left: 0;
   display: flex;
   flex-direction: column;
-
 
   width: 100vw;
   height: 100vh;
@@ -85,7 +83,6 @@
   margin: 0;
   margin-bottom: auto;
   list-style: none;
-
 }
 
 .mobile-menu_link {
@@ -93,47 +90,52 @@
   padding: 10px;
   color: #fff;
   text-decoration: none;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
   line-height: 47px;
   letter-spacing: 0.02em;
- color:#212121 ; 
+  color: #212121;
 }
-.mobile-socials{
-    display: flex;
-    gap: 20px;
+.mobile-socials {
+  display: flex;
+  gap: 20px;
 }
-.mobile-menu_link{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 47px;
-letter-spacing: 0.02em;
-color: #000;
-}
-.mobile-socials_link{
+.mobile-menu_link {
+  font-family: "Roboto";
   font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-letter-spacing: 0.02em;
-color: #2196F3;
-
-}
-.mobile-contacts_tel{
   font-weight: 500;
-font-size: 34px;
-line-height: 40px;
-letter-spacing: 0.02em;
-color: #2196F3;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #000;
 }
-.mobile-contacts_mail{
+.mobile-contacts_item {
+  margin-bottom: 32px;
+}
+.mobile-socials_item {
+  margin-top: 64px;
+}
+.mobile-socials_link {
+  font-style: normal;
   font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-letter-spacing: 0.02em;
-color: #757575;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.mobile-contacts_tel {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.mobile-contacts_mail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
 }

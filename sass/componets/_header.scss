@@ -17,12 +17,15 @@
 
 .header-contakt {
   display: none;
-  // display: flex;
-  // margin-left: auto;
+   @include mq(tablet) {
+// display: flex;
+    display: block;
+    margin-left: auto;
+  }
 }
 
 .header-contakt .site-nav__item + .site-nav__item {
-  margin-left: 50px;
+  // margin-left: 50px;
 }
 
 .button {
@@ -33,8 +36,10 @@
   font-weight: 700;
   padding-top: 16px;
   padding-bottom: 16px;
-  font-size: 26px;
-  line-height: calc(31 / 26);
+  font-size: 24px;
+  line-height: calc(28 / 24);
+  // font-size: 26px;
+  // line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
@@ -73,8 +78,10 @@
   color: var(--o-nas-color);
 }
 .header-contacts__link {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  // padding-top: 32px;
+  // padding-bottom: 32px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
