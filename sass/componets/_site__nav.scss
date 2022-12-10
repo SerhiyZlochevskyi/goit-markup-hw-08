@@ -5,7 +5,10 @@
     display: flex;
      margin-left: 93px;
   }
-
+  @include mq(desktop) {
+    display: flex;
+    margin-left: 93px;
+   }
   // display: flex;
   // margin-left: 93px;
 }

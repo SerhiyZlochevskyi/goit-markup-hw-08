@@ -18,14 +18,21 @@
 .header-contakt {
   display: none;
    @include mq(tablet) {
-// display: flex;
+
     display: block;
     margin-left: auto;
+  }
+  @include mq(desktop) {
+   display: flex;
+   margin-left: 200px;
   }
 }
 
 .header-contakt .site-nav__item + .site-nav__item {
-  // margin-left: 50px;
+  @include mq(desktop) {
+ margin-left: 50px;
+ }
+  
 }
 
 .button {
@@ -78,8 +85,8 @@
   color: var(--o-nas-color);
 }
 .header-contacts__link {
-  // padding-top: 32px;
-  // padding-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   padding-top: 15px;
   padding-bottom: 15px;
   font-weight: 500;
