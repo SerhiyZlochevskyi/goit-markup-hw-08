@@ -1,15 +1,15 @@
-// .menu {
-//   display: flex;
-//   padding: 0;
-//   margin: 0;
-//   list-style: none; 
-// }
+.menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none; 
+}
 
-// @media (max-width: 767px) {
-//   .menu {
-//     display: none;
-//   }
-// }
+@media (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+}
 
 .menu .link {
   padding: 10px;
