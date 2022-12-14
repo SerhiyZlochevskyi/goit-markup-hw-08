@@ -979,8 +979,10 @@ body {
   background-image: url(../images/astronaut\ 1.svg);
 }
 
-.advantages {
-  padding-bottom: 94px;
+@media screen and (max-width: 1199px) {
+  .advantages {
+    display: none;
+  }
 }
 .advantages__wrap {
   position: relative;
@@ -1176,18 +1178,21 @@ body {
 }
 
 .footer {
-  height: 252px;
+  height: 604px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--bg-screan-footer-color);
 }
 
 .footer-ul .footer-addres__item + .footer-addres__item {
-  margin-top: 9px;
+  margin-top: 12px;
 }
 
 .footer-adres {
-  margin-top: 20px;
+  margin-top: 28px;
 }
 
 .footer-addres__link__color {
@@ -1209,12 +1214,7 @@ body {
 }
 
 .footer__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  text-align: center;
   gap: 70px;
 }
 
@@ -1256,6 +1256,7 @@ body {
   line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 60px;
   margin-bottom: 20px;
   color: var(--text-section-footer-color);
 }
@@ -1295,17 +1296,16 @@ body {
 }
 
 .footer-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   height: 50px;
 }
 .footer-form .modal-form__input {
+  display: block;
+  margin: auto;
   outline: none;
-  width: 358px;
+  width: 450px;
   height: 100%;
-  margin: 0;
   padding: 15px;
+  margin-bottom: 20px;
   color: var(--text-section-footer-color);
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);

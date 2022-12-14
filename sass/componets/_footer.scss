@@ -1,5 +1,7 @@
 .footer {
-    height: 252px;
+    // height: 252px;
+    height: 604px;
+    display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
     background: var(--bg-screan-footer-color);
@@ -7,10 +9,12 @@
 
  
   .footer-ul .footer-addres__item + .footer-addres__item {
-    margin-top: 9px;
+    // margin-top: 9px;
+    margin-top: 12px;
   }
   .footer-adres {
-    margin-top: 20px;
+    // margin-top: 20px;
+    margin-top: 28px;
   }
   .footer-addres__link__color {
      font-style: normal;
@@ -29,8 +33,9 @@
     color: rgba(255, 255, 255, 0.6);
   }
   .footer__container {
-    display: flex;
-    align-items: baseline;
+    text-align: center;
+    // display: flex;
+    // align-items: baseline;
     gap: 70px;
    }
    .footer-wrap {
@@ -62,6 +67,7 @@
     line-height: calc(16/14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 60px;
     margin-bottom: 20px;
     color: var(--text-section-footer-color);
   }

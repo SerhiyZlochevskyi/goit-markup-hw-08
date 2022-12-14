@@ -1,6 +1,6 @@
 
  .footer-form {
-    display: flex;
+    // display: flex;
     height: 50px;
  
   
@@ -9,13 +9,15 @@
  
  
   & .modal-form__input {
- 
+    display: block;
+    margin: auto;
     outline: none;
-    width: 358px;
+    width: 450px;
+    // width: 358px;
     height: 100%;
-    margin: 0;
+    // margin: 0;
     padding: 15px;
- 
+ margin-bottom: 20px;
     color: var(--text-section-footer-color);
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
