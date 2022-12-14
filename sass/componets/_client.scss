@@ -4,7 +4,7 @@
     justify-content:center;
     // margin-right: 30px;
     gap: 30px;
-    // flex-basis: calc((100% - 2 * 15px) / 2);
+    flex-basis: calc((100% - 2 * 15px) / 2);
  
   &__link {
       display: flex;
