@@ -105,10 +105,8 @@
     margin: 0;
     margin-bottom: 20px;
     font-weight: 700;
-
-
-  
-  
-    
   }
+  @include mq(desktop) {
+ text-align:left;
+   }
   }
