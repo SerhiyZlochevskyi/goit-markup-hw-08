@@ -5,14 +5,20 @@ position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
+  // width: 528px;
+  // height: 581px;
   padding: 40px;
   background-color: #fff;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
+  @include mq(desktop) {
+    width: 528px;
+  height: 581px;
+   }
 
 
 }
@@ -131,11 +137,20 @@ color: #000000;
 
    display: flex;
    align-items: center;
-   font-size: 14px;
-   line-height: calc(24/14);
+   font-weight: 400;
+font-size: 12px;
+line-height: calc(14 / 12);
+  //  font-size: 14px;
+  //  line-height: calc(24/14);
    letter-spacing: 0.03em;
    color: var(--o-nas-color);
+
+   @include mq(desktop) {
+     font-size: 14px;
+   line-height: calc(24/14);
+   }
  }
+ 
 
  .modal-form__checkbox .modal-form__link {
    margin-left: 3px;
