@@ -1,4 +1,5 @@
 .footer {
+  // width: 1600;
   // width: 768px;
     // height: 252px;
     // height: 480px;
@@ -45,16 +46,13 @@
     text-align: center;
     @include mq(tablet) {
     display: flex;
-    display: -webkit-box;
+    // display: -webkit-box;
     display: flex;
-    // align-items: baseline;
+    align-items: baseline;
     gap: 70px;
     flex-wrap: wrap;
   }
-    // display: -webkit-box;
-    // display: flex;
-    // align-items: baseline;
-    // gap: 70px;
+  
    }
    .footer-wrap {
     flex-shrink: 0;
@@ -62,8 +60,9 @@
     // display: flex;
     margin-left: 76px;
     // flex-wrap: wrap;
-    
-    
+    @include mq(desktop) {
+      margin: 0;
+    }
   }
    }
    .footer-wrap .footer-socialnets {
@@ -103,9 +102,12 @@
 
 
     @include mq(tablet) {
-    // margin: 0;
+    margin: 0;
     margin-bottom: 20px;
-    margin-top: 60px;
+    font-weight: 700;
+
+
+  
   
     
   }
